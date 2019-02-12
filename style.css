@@ -1,0 +1,65 @@
+body {
+  background-color: lightblue;
+  font-family: Arial;
+}
+
+.coolTitle {
+  padding-bottom: 25px;
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow:
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+li {
+  cursor: pointer,
+  -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  margin: 2px;
+}
+
+ol:hover {
+  box-shadow: 5px 5px #888888;
+}
+
+button {
+      margin-left: 20px;
+}
+
+.active {
+      margin-left: 20px;
+}
+
+.inputbox {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: black;
+}
+
+.listbox {
+  display: grid;
+  background-color: white;
+  justify-content: center;
+}
