@@ -1,6 +1,8 @@
 body {
   background-color: lightblue;
   font-family: Arial;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .coolTitle {
@@ -25,8 +27,8 @@ body {
     -30px 20px 40px dimgrey;
 }
 
-.done {
-  text-decoration: line-through;
+h3 {
+  text-align: center;
 }
 
 li {
@@ -66,6 +68,10 @@ input:hover {
   box-shadow: 5px 5px #888888;
 }
 
+.done {
+  text-decoration: line-through;
+}
+
 .inputbox {
   display: grid;
   grid-template-columns: 3fr 1fr;
@@ -73,8 +79,11 @@ input:hover {
 
 .listbox {
   display: grid;
+  margin-left: auto;
+  margin-right: auto;
   background-color: white;
   justify-content: center;
+  max-width: 40em;
 }
 
 .footer {
