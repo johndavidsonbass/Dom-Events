@@ -51,22 +51,24 @@ ol:hover {
 }
 
 button {
-      margin-left: 20px;
+  margin-left: 20px;
 }
 
-.active {
-      margin-left: 20px;
+button:hover {
+  margin-left: 20px;
+  box-shadow: 5px 5px #888888;
+}
+input {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+input:hover {
+  box-shadow: 5px 5px #888888;
 }
 
 .inputbox {
   display: grid;
   grid-template-columns: 3fr 1fr;
-}
-
-.inputbox:hover {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  box-shadow: 5px 5px #888888;
 }
 
 .listbox {
